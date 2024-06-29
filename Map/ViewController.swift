@@ -89,6 +89,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate { // 지도  �
         } else if sender.selectedSegmentIndex == 2{
             //선유도 표시
             setAnnotation(latitudeValue: 37.543143, longitudeValue: 126.901005, delta: 1, title: "선유도", subtitle: "서울특별시 영등포구 양화동")
+        } else if sender.selectedSegmentIndex == 3 {
+            setAnnotation(latitudeValue: 37.5393, longitudeValue: 126.8903, delta: 1, title: "우리집", subtitle: "서울특별시 영등포구 양평로")
         }
     }
     
